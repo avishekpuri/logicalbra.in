@@ -16,27 +16,16 @@ $json = str_replace("\r\n", '\r\n', $json);
 $jsonObject = json_decode($json, true);
 ?>
 <body>
-<div class="container-sm bg-warning bg-opacity-25">
+<div class="container">
     <!-- Header -->
     <div class="jumbotron jumbotron-new-bg-color smooth-border-round mt-5">
-    <h1 class="display-1">
-        Durga Kawach
-    </h1>
-    <code class="fs-3">
-        <pre><?php echo $jsonObject['durgaKawach']; ?></pre>
-    </code>
+        <h1 class="display-1">
+            Durga Kawach
+        </h1>
+        <code class="fs-3">
+            <pre><?php echo $jsonObject['durgaKawach']; ?></pre>
+        </code>
     </div>
-
-    <!--<div class="container">
-        <div class="card text-dark bg-warning bg-opacity-25 mb-3">
-            <div class="card-header">
-                Durga Kawach
-            </div>
-            <div class="card-body">
-                <pre class="card-text"><?php /*echo $jsonObject['durgaKawach']; */?></pre>
-            </div>
-        </div>
-    </div>-->
 </div>
 </body>
 </html>
