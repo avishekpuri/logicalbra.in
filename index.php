@@ -33,7 +33,7 @@ $jsonObject = json_decode($json, true);
                         Durga Kawach
                     </h1>
                     <div class="fs-3">
-                        <span class="break-spaces"><?php echo $jsonObject['durgaKawach']; ?></span>
+                        <span class="break-spaces text-danger"><?php echo $jsonObject['durgaKawach']; ?></span>
                     </div>
                 </div>
             </div>
