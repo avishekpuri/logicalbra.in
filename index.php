@@ -26,8 +26,8 @@ $jsonObject = json_decode($json, true);
 <body>
 <div class="container">
     <!-- Header -->
-    <div class="p-5 mb-4 bg-light rounded-3">
-        <div class="container-fluid py-5 mt-5">
+    <div class="p-5 mb-4 bg-light rounded-3 mt-lg-5">
+        <div class="container-fluid">
             <h1 class="display-1">
                 Durga Kawach
             </h1>
