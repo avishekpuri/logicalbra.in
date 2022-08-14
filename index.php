@@ -24,9 +24,9 @@ $json = str_replace("\r\n", '\r\n', $json);
 $jsonObject = json_decode($json, true);
 ?>
 <body>
-<div class="container">
+<div class="container-fluid">
     <div class="row justify-content-md-center">
-        <div class="col-lg-6 col-sm-12 mt-2">
+        <div class="col-lg-6 col-sm-12 mt-3">
             <div class="p-lg-5 p-sm-2 mb-4 bg-warning text-center rounded-5">
                 <div class="container-fluid">
                     <h1 class="display-1">
