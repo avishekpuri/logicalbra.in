@@ -25,17 +25,20 @@ $jsonObject = json_decode($json, true);
 ?>
 <body>
 <div class="container">
-    <!-- Header -->
-    <div class="p-5 mb-4 bg-light rounded-3 mt-lg-5">
-        <div class="container-fluid">
-            <h1 class="display-1">
-                Durga Kawach
-            </h1>
-            <div class="fs-3">
-                <span class="break-spaces"><?php echo $jsonObject['durgaKawach']; ?></span>
+    <div class="col-2"></div>
+    <div class="col-8">
+        <div class="p-5 mb-4 bg-light rounded-3 mt-lg-5">
+            <div class="container-fluid">
+                <h1 class="display-1">
+                    Durga Kawach
+                </h1>
+                <div class="fs-3">
+                    <span class="break-spaces"><?php echo $jsonObject['durgaKawach']; ?></span>
+                </div>
             </div>
         </div>
     </div>
+    <div class="col-2"></div>
 </div>
 </body>
 </html>
