@@ -18,13 +18,15 @@ $jsonObject = json_decode($json, true);
 <body>
 <div class="container">
     <!-- Header -->
-    <div class="jumbotron jumbotron-new-bg-color smooth-border-round mt-5">
-        <h1 class="display-1">
-            Durga Kawach
-        </h1>
-        <code class="fs-3">
-            <pre><?php echo $jsonObject['durgaKawach']; ?></pre>
-        </code>
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+            <h1 class="display-1">
+                Durga Kawach
+            </h1>
+            <code class="fs-3">
+                <pre><?php echo $jsonObject['durgaKawach']; ?></pre>
+            </code>
+        </div>
     </div>
 </div>
 </body>
