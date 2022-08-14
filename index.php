@@ -27,7 +27,7 @@ $jsonObject = json_decode($json, true);
 <div class="container">
     <div class="row justify-content-md-center">
         <div class="col-lg-6 col-sm-12 mt-2">
-            <div class="p-5 mb-4 bg-warning text-center rounded-5">
+            <div class="p-lg-5 p-sm-2 mb-4 bg-warning text-center rounded-5">
                 <div class="container-fluid">
                     <h1 class="display-1">
                         Durga Kawach
