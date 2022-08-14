@@ -25,9 +25,9 @@ $jsonObject = json_decode($json, true);
 ?>
 <body>
 <div class="container">
-    <div class="col-2"></div>
-    <div class="col-8">
-        <div class="p-5 mb-4 bg-light rounded-3 mt-lg-5">
+    <div class="col-3 col-lg-3"></div>
+    <div class="col-6 col-lg-6">
+        <div class="p-5 mb-4 bg-warning text-center rounded-5 mt-lg-5">
             <div class="container-fluid">
                 <h1 class="display-1">
                     Durga Kawach
@@ -38,7 +38,7 @@ $jsonObject = json_decode($json, true);
             </div>
         </div>
     </div>
-    <div class="col-2"></div>
+    <div class="col-3 col-lg-3"></div>
 </div>
 </body>
 </html>
