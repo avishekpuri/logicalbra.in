@@ -26,7 +26,7 @@ $jsonObject = json_decode($json, true);
 <body>
 <div class="container">
     <div class="row justify-content-md-center">
-        <div class="col-6 col-lg-6 col-sm-auto col-md-auto">
+        <div class="col-lg-6 col-sm-12 mt-auto">
             <div class="p-5 mb-4 bg-warning text-center rounded-5 mt-lg-5">
                 <div class="container-fluid">
                     <h1 class="display-1">
