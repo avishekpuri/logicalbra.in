@@ -27,13 +27,13 @@ $jsonObject = json_decode($json, true);
 <div class="container-fluid">
     <div class="row justify-content-md-center">
         <div class="col-lg-6 col-sm-12 mt-3">
-            <div class="p-lg-5 p-sm-2 mb-4 bg-warning text-center rounded-5">
+            <div class="p-lg-5 p-sm-2 mb-4 bg-warning text-danger text-lg-center rounded-5">
                 <div class="container-fluid">
                     <h1 class="display-1">
                         Durga Kawach
                     </h1>
                     <div class="fs-3">
-                        <span class="break-spaces text-danger text-lg-center"><?php echo $jsonObject['durgaKawach']; ?></span>
+                        <span class="break-spaces"><?php echo $jsonObject['durgaKawach']; ?></span>
                     </div>
                 </div>
             </div>
