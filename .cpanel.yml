@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home1/a1638l7f/logicalbra.in/
+    - export DEPLOYPATH=/logicalbra.in/
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp kawach.txt $DEPLOYPATH
     - /bin/cp response.json $DEPLOYPATH
